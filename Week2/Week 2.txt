@@ -1,0 +1,28 @@
+Week 2 Problems
+
+1. Write a console program that displays all the numbers in the Fibonacci Sequence up to a given max, starting with 0. The Italian mathematician Leonardo Fibonacci devised the Fibonacci sequence as a way to model the growth of a population of rabbits. The first two terms in the sequence are 0 and 1, and every subsequent term is a sum of the previous two terms. (The Fibonacci sequence has numerous applications in computer science and shows up in surprising places. It's used to compute logarithms, index and retrieve data, and as a building block in some route-planning algorithms.)
+
+Output from one example run:
+
+This program lists the Fibonacci sequence.
+Max value? 10000
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765
+
+2. Write a console program that prompts the user to type an integer and computes the sum of the digits of that integer. You may assume that the user types a non-negative integer. Match the following output format:
+
+Type an integer: 827104
+Digit sum is 22
+
+3. Write a function named add_commas that accepts a string representing a number and returns a new string with a comma at every third position, starting from the right.
+
+For example, the call of add_commas("12345678") returns "12,345,678".
+
+4. Write a function named remove_duplicates that accepts a string parameter and returns a new string with all consecutive occurrences of the same character in the string replaced by a single occurrence of that character.
+
+For example, the call of remove_duplicates("bookkeeeeeper") should return "bokeper".
+
+5. Write a function named is_rotation that accepts two strings as parameters and returns true if they are rotations of each other. Two strings are considered rotations if they contain the same characters in the same relative order when wrapped around.
+
+For example, the call of is_rotation("abcde", "deabc") should return True. The call of is_rotation("abcde", "edcba") should return False because the characters are not in the same order.
+
+Note: a string is also considered to be its own rotation.
