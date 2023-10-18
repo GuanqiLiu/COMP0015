@@ -10,8 +10,9 @@ def main():
 
     # 2. Convert the weight to mars weight.
 
-    # Print the calculated weight.
-    pass
+    # 3. Print the calculated mars weight. str把他变成string
+    #print ("Your mars weight is : " + str(mars_weight))
+    print (f"Your mars weight is : {mars_weight:.2f} ")
 
 if __name__ == '__main__':
     main()
