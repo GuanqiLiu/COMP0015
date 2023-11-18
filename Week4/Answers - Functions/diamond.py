@@ -121,7 +121,7 @@ def diamond_string(brick_character, height):
         the string for the current diamond
 
     """
-    pyramid_height = height // 2
+    pyramid_height = height // 2      #height//2 分两个
     diamond_str = ""
     diamond_str += pyramid_string(brick_character, pyramid_height + 1)
     diamond_str += upside_down_pyramid_string(brick_character, pyramid_height)
@@ -147,8 +147,8 @@ def upside_down_pyramid_string(brick_character, height):
 
     """
     pattern = ""
-    for line_count in reversed(range(1, height + 1)):
-        pattern += pyramid_line(brick_character, line_count, height + 1) ##
+    for line_count in reversed(range(1, height + 1)):      #reversed
+        pattern += pyramid_line(brick_character, line_count, height + 1) 
     return pattern
 
 

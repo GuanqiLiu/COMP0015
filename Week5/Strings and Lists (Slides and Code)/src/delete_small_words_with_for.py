@@ -24,3 +24,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+#At the start of the for loop, Python uses the list length to determine how many times to perform the loop. 
+# If you change the size of the list then Python will try to process elements beyond the new list length.

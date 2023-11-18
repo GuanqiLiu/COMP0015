@@ -5,6 +5,23 @@
     This problem is from “Building Python Programs” by: Stuart Reges, Marty Stepp, and Allison Obourn, 2018.
 """
 
+def squareString(min_num, max_num):
+    result = ""
+    for start in range(min_num, max_num + 1):
+        current = start
+        for _ in range(max_num - min_num + 1):
+            result += str(current)
+            current += 1
+            if current > max_num:
+                current = min_num
+        result += "\n"
+    return result
+
+# Example usage
+print(squareString(3, 7))
+
+
+
 MARGIN = " " * 10
 
 

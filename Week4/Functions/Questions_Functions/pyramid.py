@@ -15,6 +15,7 @@ def pyramid_line(symbol, line_number, height):
     @param    lineNumber the lineNumber in the pyramid
     @param    height the height of the pyramid
     @return   line the string representing a line of the pyramid
+    
     """
     line = ""
     line += spaces_for_pyramid_line(line_number, height)

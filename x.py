@@ -1,2 +1,3 @@
-for i in range (2):
-   print(i)
+x = str(123)
+for dit in x :
+    print(dit)
